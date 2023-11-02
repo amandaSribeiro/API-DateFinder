@@ -37,7 +37,7 @@ res.status(200).json({message:'Excluído com sucesso!'})
 router.put('/:id', async (req, res) =>{
 const {em_casa, descricao} = req.body;
 await Date.update(
-{em_casa, descricao},
+{em_casa, descricao, encontro_duplo},
 {
 where: {id:req.params.id},
 }
