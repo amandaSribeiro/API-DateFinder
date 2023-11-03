@@ -7,7 +7,7 @@ A API "DateFinder" é uma solução inovadora que visa aprimorar a experiência 
 
 #### GET Servidor (localhost:3000/):
 
-Este endpoint pode ser usado para verificar se o servidor está em execução e obter informações gerais sobre a API.
+Este endpoint pode ser usado para verificar se o servidor está em execução.
 
 #### POST Criando Dates (http://localhost:3000/date): 
 Criar uma nova ideia de encontro. Você pode enviar um POST com os detalhes do encontro no corpo da solicitação (por exemplo, título, endereço, custo, etc.).
